@@ -1,4 +1,4 @@
-import { Link } from "expo-router";
+// import { Link } from "expo-router";
 import { Text, View } from "react-native";
 // import './global.css' // <--- REMOVE THIS LINE
  
@@ -9,8 +9,8 @@ export default function Index() {
       <Text className="text-5xl text-accent font-bold">
         Welcome!
       </Text>
-      <Link href="/onboarding">Onboarding</Link>
-      <Link href="/movie/avengers">Avenger Movie</Link>
+      {/* <Link href="/onboarding">Onboarding</Link>
+      <Link href="/movie/avengers">Avenger Movie</Link> */}
     </View>
   );
 }
