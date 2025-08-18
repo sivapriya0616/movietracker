@@ -3,7 +3,7 @@ import React from 'react'
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 import { Tabs } from "expo-router";
-import {images} from "@/constants/images"
+// import {images} from "@/constants/images"
 export default function _Layout() {
   return (
     <Tabs
