@@ -1,12 +1,18 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const _layout = () => {
-  return (
-    <View>
-      <Text>_layout</Text>
-    </View>
-  )
-}
+import { Tabs } from "expo-router";
 
-export default _layout
+export default function _Layout() {
+  return (
+    <Tabs>
+      <Tabs.Screen
+        name="index"
+        options={{
+          title: "Home",
+          headerShown: false,
+        }}
+      />
+    </Tabs>
+  );
+}
